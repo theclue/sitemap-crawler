@@ -1,0 +1,10 @@
+suppressMessages(library("dplyr"))
+suppressMessages(library("lubridate"))
+suppressMessages(library("rprojroot"))
+suppressMessages(library("futile.logger"))
+suppressMessages(library("openxlsx"))
+suppressMessages(library("jsonlite"))
+suppressMessages(library("rvest"))
+suppressMessages(library("httr"))
+
+proxy.crawl <- Sys.getenv("PROXY_CRAWL")
